@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.complete {
+    text-decoration: line-through;
+    opacity: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: rgb(60, 65, 66);
+    color: white;
+    width: 60%;
+    margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#title {
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#taskManager {
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+#taskInputForms h2 {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#toDoList {
+    min-width: 75%;
+}
+
+#toDoList h1 {
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+#list {
+    border: 1px solid lightgrey;
+    font-size: large;
+}
+
+#noTasks {
+    text-align: center;
+    font-weight:bolder;
+}
+
+ul li input {
+    margin-right: 1em;
+}
+
+button {
+    margin-left: 1em;
+    background-color: red;
+}
+
+fieldset {
+    width:fit-content;
+    padding: 1em;
+    margin: 1em;
+}
+
+input {
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
